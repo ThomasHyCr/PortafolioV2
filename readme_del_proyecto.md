@@ -15,7 +15,19 @@ Este es el repositorio del portafolio interactivo de Thomas HC (Kuro), Game Deve
 - **Tarjetas 3D (Tilt Effect):** Efecto de inclinación interactiva en las tarjetas de presentación calculado matemáticamente según la posición del cursor.
 - **Despliegue Continuo:** Configurado con `gh-pages` para compilación y publicación automática.
 
-##  Instalación y Uso Local
+## Instalación, fork y despliegue
+
+La aplicación está dentro de `mi-portafolio`. Las rutas de Vite son relativas,
+por lo que funcionan tanto en este repositorio como en un fork con otro nombre.
+
+1. Crea el fork y habilita **Settings > Pages > Source: GitHub Actions**.
+2. Sube los cambios a la rama `main`.
+3. El workflow `.github/workflows/deploy-pages.yml` instalará dependencias,
+   compilará el proyecto y publicará el sitio automáticamente.
+
+La URL del fork será `https://<usuario>.github.io/<repositorio>/`.
+
+## Instalación y uso local
 
 Si deseas correr este proyecto en tu entorno local, sigue estos pasos:
 
@@ -32,7 +44,7 @@ Si deseas correr este proyecto en tu entorno local, sigue estos pasos:
    npm run dev
    ```
 
-## 🔗 Enlaces del Proyecto
+## Enlaces del proyecto
 
 - **Página:** [https://ls1653.github.io/Portafolio-web/](https://ls1653.github.io/Portafolio-web/)
 - **Video:** [Espacio listo para insertar el enlace del video]
